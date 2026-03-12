@@ -2,19 +2,75 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(219, 208, 208);
+}
+body {
+   background-color: white
 }
 
  .Container{
-    width: 400px;
-    background-color: rgb(150, 134, 134);
+    width: 1000px;
+    background-color:rgb(249, 245, 236);
     text-align: center;
     margin: 50px auto;
- }
- .img{
-    border-radius: 10%;
-    width: 100px;
+    padding: 60px;
+   
 
  }
+
+ .box{
+   background-color: white;
+   padding: 10px;
+   border: 1px solid balck;
+ }
+ img{
+    border-radius: 10%;
+    width: 600px;
+    align-items: center;
+ }
+
+ .Titulo1{
+   text-align: center;
+   color: rgb(203, 4, 4);
+ }
+
+ .introduccion{
+   text-align: start;
+   height: auto;
+ }
+
+.Titulo{
+   text-align: start;
+   color: orange;
+}
+
+.Subtitulo{
+   text-align: start;
+   color: rgb(58, 184, 58);
+}
+
+ .pasos{
+   text-align: start;
+ }
+
+ .instruciones{
+   text-align: start;
+    margin-bottom: 10px;
+   padding: 5px;
+}
+ 
   
+ .final{
+   list-style: none;
+   margin-bottom: 10px;
+   color: black;
+   text-align: start;
+
+  
+ }
+
+ li span{
+   color: rgb(58, 184, 58);
+   
+ }
+
 
